@@ -1,0 +1,9 @@
+- todo for starter stuff
+  - make a common lib and move some stuff in common into it
+- initial setup
+	- manifest.json - follow instructions from obsidian github
+	- package.json
+	  - set name
+      - set description
+    - versions
+      - make match current obs version

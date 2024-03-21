@@ -1,4 +1,4 @@
-import {NODE_ENV} from "./generated/envConstants";
+import {NODE_ENV} from "../generated/envConstants";
 
 // singleton!
 let env: EnvVars | null = null;

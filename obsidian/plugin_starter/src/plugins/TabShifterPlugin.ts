@@ -1,12 +1,10 @@
 /*
-Todo (missing functionalities):
-- exclude left/right sidepanes; see below
-- support initial left split (see below)
+This file included as example
  */
 import {Plugin} from "obsidian";
-import { getParentsForEachLeaf, supportedViewTypes} from "../share";
-import {WorkspaceLeafExtended} from "../typesUnofficial";
-import {getEnvVars} from "../env";
+import { getParentsForEachLeaf, supportedViewTypes} from "../example/share";
+import {WorkspaceLeafExtended} from "../example/typesUnofficial";
+import {getEnvVars} from "../common/env";
 
 const env = getEnvVars();
 
