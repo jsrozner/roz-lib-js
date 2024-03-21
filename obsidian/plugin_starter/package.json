@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-sample-plugin",
 	"version": "1.0.0",
-	"description": "Enables shifting tabs between different tab splits and some other basic IDE tab functionalities",
+	"description": "",
 	"main": "main.js",
 	"scripts": {
 		"prebuild_dev": "NODE_ENV=development ts-node scripts/generateStaticEnv.mjs",
@@ -12,7 +12,7 @@
 		"dev_copy_files_for_hotload": "node scripts/copyFiles.js",
 		"watch_dev": "nodemon",
 		"lint": "eslint src/*.ts",
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
+		"version": "node version-bump.mjs && git add manifest.json versions.json package.json"
 	},
 	"keywords": [],
 	"author": "Joshua Rozner",

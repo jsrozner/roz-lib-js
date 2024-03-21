@@ -1,5 +1,7 @@
 - todo for starter stuff
   - make a common lib and move some stuff in common into it
+- other
+  - build is not submitted to git..but it's part of releases
 - initial setup
 	- manifest.json - follow instructions from obsidian github
 	- package.json
