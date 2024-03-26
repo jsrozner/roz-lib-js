@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"module": "ESNext",
+		"target": "es5",
+		"allowJs": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"isolatedModules": false,
+		"strictNullChecks": true,
+		"lib": [
+			"ES5",
+			"ES6",
+			"ES7"
+		],
+		"outDir": "build"
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"exclude": ["other"]
+
+}
